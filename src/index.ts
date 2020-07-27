@@ -2,6 +2,7 @@ import express from "express";
 import http, { ServerResponse } from "http";
 import socketIO from "socket.io";
 import debug from "debug";
+import './logger';
 
 const serverDebug = debug("server");
 const ioDebug = debug("io");
